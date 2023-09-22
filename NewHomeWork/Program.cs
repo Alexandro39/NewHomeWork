@@ -1,14 +1,11 @@
-﻿string hexString = "B16C";
-int num = Int32.Parse(hexString, System.Globalization.NumberStyles.HexNumber);
-Console.WriteLine(num);
+﻿int Petya = 10;
+int Alesha = Petya - 4;
+int Vanya = Alesha + 2;
+Console.WriteLine($"Петя взял {Petya} книг, Алеша взял {Alesha} книг, Ваня взял {Vanya} книг");
+int res = Petya + Alesha + Vanya;
+Console.WriteLine($"Вместе они взяли {res} ");
 
-
-string hexString = "BFA9";
-int num = Int32.Parse(hexString, System.Globalization.NumberStyles.HexNumber);
-Console.WriteLine(num);
-
-
-
-string hexString = "42ACD";
-int num = Int32.Parse(hexString, System.Globalization.NumberStyles.HexNumber);
-Console.WriteLine(num);
+int basketOne = 23;
+int basketTwo = basketOne - 11;
+int res = basketOne + basketTwo;
+Console.WriteLine($"В обеих корзинах {res} яблок");
